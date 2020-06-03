@@ -1,10 +1,52 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 2 juin 2020, 15:45:37
-    Author     : yannl
-*/
+* {
+    font-family: 'Helvetica'; /* Police par défaut */
+    box-sizing: border-box; /* Les tailles de conteneurs incluent bordures et 
+                               remplissages */
+    margin: 0; /* Mise à 0 des marges externes */
+    padding: 0; /* Mise à 0 des marges internes */
+    text-decoration: none; /* Suppression de la mise en forme habituelle des liens 
+                             (soulignement) */
+}
 
+/* Définition de la police "Montserrat" */
+@font-face{ 
+    font-family: "Helvetica";
+    src: url('polices/Helvetica.ttf.ttf') format("truetype");
+}
+
+header {
+    width: 100%; /* Les headers et sections remplissent la page horizontalement */
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-direction: row; /* Les éléments sont empilés */
+}
+
+nav {
+    width: inherit;
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: white;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: #404040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background-color:lightgray; /* Couleur du fond au passage de la souris */
+}
