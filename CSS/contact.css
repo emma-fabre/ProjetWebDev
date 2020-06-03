@@ -8,21 +8,22 @@ and open the template in the editor.
     Author     : emma.fabre
 */
 
-#carto h1{ 
-    text-align: center;
-    margin-right: 100px;
-    font-size: xx-large;
-    color: black;
+
+#carto {
+    padding-top: 10px;
+    line-height: 0;
 }
 
-#gauche{
+#carto h1 {
+    text-align: left;
+    line-height: normal;
+}
+
+#carto img:nth-child(2) {
     float: left;
+    margin-right: 10px;
 }
 
-#centre{
-    float: right;
-}
-
-#droite{
-    float: right;
+#carto img:last-child {
+    margin-top: 10px;
 }
