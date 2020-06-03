@@ -14,26 +14,62 @@
     src: url('polices/Helvetica.ttf.ttf') format("truetype");
 }
 
+body {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    flex-direction: column; /* Les éléments sont empilés */
+    align-items: center; /* Les éléments portés sont centrés à la verticale */
+    width: 100%; /* La page occupe toute la largeur */
+    background-color: gray;
+}
+
 header {
     width: 100%; /* Les headers et sections remplissent la page horizontalement */
     display: flex; /* Ce conteneur est "flexible" */
-    flex-direction: row; /* Les éléments sont empilés */
+    justify-content: center;
 }
 
-nav {
-    width: inherit;
+#nav_bar {
+    width: 100%;
     position: fixed;
     top: 0;
     min-height: 75px;
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-direction: row; /* Les éléments sont empilés */
+    justify-content: center;
+    background-color: white;
+}
+
+#nav_bar .nav_link_logo {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav_bar .header_logo {
+    max-width: 158px;
+    height: auto;
+    margin: 0;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    background: 0 0;
+}
+
+nav {
+    width: 50%;
 }
 
 nav ul {
+    width: 100%;
+    float: right;
     list-style-type: none;
-    margin: 0;
+    margin:0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
     background-color: white;
+    min-height: 75px;
 }
 
 nav ul li {
@@ -44,9 +80,10 @@ nav ul li a {
     display: block;
     color: #404040;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
+    margin-top: 16px;
     text-decoration: none;
 }
-nav ul li:hover {
+nav ul li a:hover {
     background-color:lightgray; /* Couleur du fond au passage de la souris */
 }
