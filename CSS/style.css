@@ -87,3 +87,8 @@ nav ul li a {
 nav ul li a:hover {
     background-color:lightgray; /* Couleur du fond au passage de la souris */
 }
+
+.fa-facebook:before{
+    content: "\f09a";
+    font-family: FontAwesome;
+}
