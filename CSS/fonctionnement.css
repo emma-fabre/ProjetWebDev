@@ -31,6 +31,10 @@ section {
     margin-top: 100px;
 }
 
+#rdv h1, #dev h1 {
+    color: white;
+}
+
 #rdv p, #dev p {
     color: white;
     margin-bottom: 0px;
