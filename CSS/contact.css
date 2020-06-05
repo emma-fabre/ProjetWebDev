@@ -59,34 +59,36 @@ and open the template in the editor.
     text-align: left;
     margin-left: 0px;
     color: black;
-    /*color : black;
-    margin-bottom : 0px;*/
+   
        
 }
 
 #logo {
-    
+    flex-direction: row;
     padding-bottom: 2%;
     padding-left: 15%;
     padding-right: 15%;
-    width: 100%;    
+    width: 100%; 
 }
 
 #logo article {
-    flex: 1; 
+   /*flex: 1; 
     height: 32px;
     border: transparent thin solid;
     display: flex;
+    width: 32px;
+    border-width: 32px;
+    border-right-width: 40px;*/
+    border-width: 32px;
+    justify-content: space-between;
    
 }
 
 #logo a{
-    color: black;
-    font-size:xx-small;
-    font-family: 'Helvetica';
+    flex-direction: row;
 }
 
-#gauche:hover {
+/*#gauche:hover {
    border: black thin solid; 
    border-radius: 5px;
    background-color: grey ;
@@ -102,19 +104,4 @@ and open the template in the editor.
    border: black thin solid; 
    border-radius: 5px;
    background-color: grey ;
-}
-
-#gauche {
-    background: transparent url('../Images/logo-fb.png') no-repeat 0 0; /* Fond */  
- 
-}
-
-#milieu {
-   background: transparent url('../Images/logo-tw.png') no-repeat 0 0; /* Fond */ 
-  
-}
-
-#droite {
-    background: transparent url('../Images/logo-lk.png') no-repeat 0 0; /* Fond */  
- 
-}
+}*/
