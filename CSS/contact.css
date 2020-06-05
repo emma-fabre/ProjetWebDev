@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 juin 2020, 10:46:00
+    Author     : emma.fabre
+*/
+
+
+#carto {
+    padding-top: 100px;
+    color: black;
+}
+
+#carto h1 {
+    
+    text-align: left;
+    line-height: normal;
+}
+
+#carto img:first-child {
+    float: left;
+    
+}
+
+#carto img {
+    float: left;
+    
+}
+
+#carto img:last-child {
+    float: right;
+}
+
+#contact {
+    color: black;
+    float: left;
+}
+
+#contact h1 {
+    text-align: left;
+    line-height: normal;
+    
+}
