@@ -11,21 +11,19 @@ and open the template in the editor.
 
 #carto {
     padding-top: 100px;
-    color: black;
-    
+    color: black;  
 }
 
 #carto h1 {
-    
-    text-align: left;
-    line-height: normal;
+    font-size : 40px;
+    font-weight: bold ;
+    text-transform: uppercase;
 }
 
 #carto img {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-    
+    margin: 10px;   
 }
 
 #carto img:nth-child(2) {
@@ -39,18 +37,21 @@ and open the template in the editor.
 
 #contact {
     color: black;
-    padding-left: 10px;
+    margin-top: 30px;
 }
 
 #contact h1 {
-    text-align: left;
-    line-height: normal;   
+    font-size : 40px;
+    font-weight: bold ;
+    text-transform: uppercase;
 }
 
 #contact p {
-    text-align: left;
+    /*text-align: left;
     margin-right: 10px;
-    color: black;
+    color: black;*/
+    color : black;
+    margin-bottom : 0px;
        
 }
 
