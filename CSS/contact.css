@@ -21,19 +21,26 @@ and open the template in the editor.
     line-height: normal;
 }
 
+#carto img {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
 #carto img:first-child {
     float: left;
     
 }
 
-#carto img {
+#carto img:nth-child(2) {
     float: left;
-    
+    margin-right: 10px;
 }
 
 #carto img:last-child {
-    float: left;
-    
+    float : left;
+    margin-top: 10px;
 }
 
 #contact {
