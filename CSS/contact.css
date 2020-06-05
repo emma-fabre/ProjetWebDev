@@ -52,3 +52,8 @@ and open the template in the editor.
     color: black;
        
 }
+
+#logo {
+    justify-content: space-around; 
+    flex-direction : row;
+}
