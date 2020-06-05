@@ -10,7 +10,7 @@ and open the template in the editor.
 
 
 #carto {
-    padding-top: 20px;
+    padding-top: 100px;
     color: black;
 }
 
@@ -20,13 +20,18 @@ and open the template in the editor.
     line-height: normal;
 }
 
-#carto img:nth-child(2) {
+#carto img:first-child {
     float: left;
-    margin-right: 10px;
+    
+}
+
+#carto img {
+    float: left;
+    
 }
 
 #carto img:last-child {
-    margin-top: 10px;
+    float: right;
 }
 
 #contact {
@@ -37,5 +42,5 @@ and open the template in the editor.
 #contact h1 {
     text-align: left;
     line-height: normal;
-    margin-right: 10px;
+    
 }
