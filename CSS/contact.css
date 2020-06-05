@@ -11,25 +11,24 @@ and open the template in the editor.
 
 #carto {
     padding-top: 100px;
-    color: black;
+    color: black; 
+    padding-bottom: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    display:block;
 }
 
 #carto h1 {
-    
-    text-align: left;
-    line-height: normal;
+    font-size : 40px;
+    font-weight: bold ;
+    text-transform: uppercase;
 }
 
 #carto img {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-    
-}
-
-#carto img:first-child {
-    float: left;
-    
+    margin: 10px;   
 }
 
 #carto img:nth-child(2) {
@@ -43,11 +42,79 @@ and open the template in the editor.
 
 #contact {
     color: black;
-    float: left;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    display:block;
 }
 
 #contact h1 {
+    font-size : 40px;
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+
+#contact p {
     text-align: left;
-    line-height: normal;
+    margin-left: 0px;
+    color: black;
+    /*color : black;
+    margin-bottom : 0px;*/
+       
+}
+
+#logo {
     
+    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;    
+}
+
+#logo article {
+    flex: 1; 
+    height: 32px;
+    border: transparent thin solid;
+    display: flex;
+   
+}
+
+#logo a{
+    color: black;
+    font-size:xx-small;
+    font-family: 'Helvetica';
+}
+
+#gauche:hover {
+   border: black thin solid; 
+   border-radius: 5px;
+   background-color: grey ;
+}
+
+#milieu:hover {
+   border: black thin solid; 
+   border-radius: 5px;
+   background-color: grey ;
+}
+
+#droite:hover {
+   border: black thin solid; 
+   border-radius: 5px;
+   background-color: grey ;
+}
+
+#gauche {
+    background: transparent url('../Images/logo-fb.png') no-repeat 0 0; /* Fond */  
+ 
+}
+
+#milieu {
+   background: transparent url('../Images/logo-tw.png') no-repeat 0 0; /* Fond */ 
+  
+}
+
+#droite {
+    background: transparent url('../Images/logo-lk.png') no-repeat 0 0; /* Fond */  
+ 
 }

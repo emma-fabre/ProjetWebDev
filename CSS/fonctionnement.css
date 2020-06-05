@@ -35,6 +35,12 @@ section {
     color: white;
 }
 
+.emphase {
+    color:white;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
 #rdv p, #dev p {
     color: white;
     margin-bottom: 0px;

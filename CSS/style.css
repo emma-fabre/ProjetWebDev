@@ -87,3 +87,14 @@ nav ul li a {
 nav ul li a:hover {
     background-color:lightgray; /* Couleur du fond au passage de la souris */
 }
+
+i {
+    font-family: 'FontAwesome';
+}
+
+footer {
+    background-color:#272727;
+    width: 100%; /* Les headers et sections remplissent la page horizontalement */
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center;
+}
