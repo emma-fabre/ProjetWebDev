@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 juin 2020, 09:01:57
+    Author     : prico
+*/
+
+body {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    flex-direction: column; /* Les éléments sont empilés */
+    align-items: center; /* Les éléments portés sont centrés à la verticale */
+    width: 100%; /* La page occupe toute la largeur */
+    background-color: white;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    display:block;
+}
+
+#rdv {
+    background-color: #404040;
+    margin-top: 100px;
+}
+
+#rdv p, #dev p {
+    color: white;
+    margin-bottom: 0px;
+}
+
+#ce {
+    background-color: white;
+}
+
+#dev{
+    background-color: #404040;
+}
+
+#rendu {
+    background-color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
