@@ -12,6 +12,7 @@ and open the template in the editor.
 #carto {
     padding-top: 100px;
     color: black;
+    
 }
 
 #carto h1 {
@@ -31,16 +32,23 @@ and open the template in the editor.
 }
 
 #carto img:last-child {
-    float: right;
+    float: left;
+    
 }
 
 #contact {
     color: black;
-    float: left;
+    padding-left: 10px;
 }
 
 #contact h1 {
     text-align: left;
-    line-height: normal;
-    
+    line-height: normal;   
+}
+
+#contact p {
+    text-align: left;
+    margin-right: 10px;
+    color: black;
+       
 }
