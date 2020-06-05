@@ -11,7 +11,12 @@ and open the template in the editor.
 
 #carto {
     padding-top: 100px;
-    color: black;  
+    color: black; 
+    padding-bottom: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    display:block;
 }
 
 #carto h1 {
@@ -38,6 +43,11 @@ and open the template in the editor.
 #contact {
     color: black;
     margin-top: 30px;
+    padding-bottom: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    display:block;
 }
 
 #contact h1 {
@@ -47,11 +57,11 @@ and open the template in the editor.
 }
 
 #contact p {
-    /*text-align: left;
-    margin-right: 10px;
-    color: black;*/
-    color : black;
-    margin-bottom : 0px;
+    text-align: left;
+    margin-left: 0px;
+    color: black;
+    /*color : black;
+    margin-bottom : 0px;*/
        
 }
 
