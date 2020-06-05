@@ -28,18 +28,12 @@ and open the template in the editor.
     
 }
 
-#carto img:first-child {
-    float: left;
-    
-}
-
 #carto img:nth-child(2) {
     float: left;
     margin-right: 10px;
 }
 
 #carto img:last-child {
-    float : left;
     margin-top: 10px;
 }
 
@@ -61,6 +55,55 @@ and open the template in the editor.
 }
 
 #logo {
+    
     justify-content: space-around; 
     flex-direction : row;
+    margin-top: 10px;
+}
+
+#logo article {
+    flex: 1; 
+    height: 32px;
+    border: transparent thin solid;
+    display: flex;
+    
+}
+
+#logo a{
+    color: black;
+    font-size:xx-small;
+    font-family: 'Helvetica';
+}
+
+#gauche:hover {
+   border: black thin solid; 
+   border-radius: 5px;
+   background-color: grey ;
+}
+
+#milieu:hover {
+   border: black thin solid; 
+   border-radius: 5px;
+   background-color: grey ;
+}
+
+#droite:hover {
+   border: black thin solid; 
+   border-radius: 5px;
+   background-color: grey ;
+}
+
+#gauche {
+    background: transparent url('../Images/logo-fb.png') no-repeat 0 0; /* Fond */  
+ 
+}
+
+#milieu {
+   background: transparent url('../Images/logo-tw.png') no-repeat 0 0; /* Fond */ 
+  
+}
+
+#droite {
+    background: transparent url('../Images/logo-lk.png') no-repeat 0 0; /* Fond */  
+ 
 }
