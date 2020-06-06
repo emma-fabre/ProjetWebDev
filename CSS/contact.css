@@ -71,6 +71,12 @@ and open the template in the editor.
     width: 100%; 
 }
 
+#logo h1 {
+    font-size : 40px;
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+
 #logo article {
    /*flex: 1; 
     height: 32px;
