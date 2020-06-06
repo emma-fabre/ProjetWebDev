@@ -1,0 +1,55 @@
+body {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    flex-direction: column; /* Les éléments sont empilés */
+    align-items: center; /* Les éléments portés sont centrés à la verticale */
+    width: 100%; /* La page occupe toute la largeur */
+    background-color: white;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 0%;
+    padding-left: 20%;
+    padding-right: 15%;
+    width: 100%;
+    display:block;
+    font-size: 20px;
+    color:grey;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    color:#A32725; /*Rouge foncé du logo junior*/
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    display:flex;
+    justify-content: center;
+}
+#presta_elec{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#text_elec{
+    padding:20;
+}
+
+
+#drapeaux{
+    display:flex;
+    justify-content: center;
+}
+
+#drapeaux img{
+    border-radius:15px;
+    padding:3;
+}
