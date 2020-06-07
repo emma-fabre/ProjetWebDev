@@ -21,7 +21,7 @@ body {
     align-items: center; /* Les éléments portés sont centrés à la verticale */
     width: 100%; /* La page occupe toute la largeur */
     background-color: white;
-    text-align: center;
+    text-align: left;
 }
 
 #group_photo {
@@ -208,4 +208,70 @@ footer ul li a:hover {
     padding-left: 3px;
     max-height: 20px;
     width: auto;
+}
+
+@media screen and (max-width:768px) {
+    #nav_bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-direction: row; /* Les éléments sont empilés */
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
+}
+
+#nav_bar .nav_link_logo {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#nav_bar .header_logo {
+    max-width: 158px;
+    height: auto;
+    margin: 0;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    background: 0 0;
+}
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    width: 100%;
+    float: right;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    min-height: 75px;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    font-family: "Lato", Helvetica, sans-serif;
+    display: block;
+    color: #404040;
+    text-align: center;
+    padding: 16px 18px;
+    margin-top: 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color:lightgray; /* Couleur du fond au passage de la souris */
+    text-decoration: none;
+    color:black;
+}
 }
