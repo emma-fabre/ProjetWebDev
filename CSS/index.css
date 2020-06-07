@@ -12,6 +12,35 @@ body {
     text-align: center;
 }
 
+
+#group_photo {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.custom-background {
+    z-index: 1;
+    margin-top: 75px;
+    filter: grayscale(100%);
+    max-width: 100%;;
+    height: auto;
+}
+
+.centered {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 section {
     padding-top: 50px;
     padding-bottom: 5%;
@@ -155,4 +184,19 @@ section {
 
 #team .section_main .textimage {
     max-width: 300px !important;
+}
+
+
+
+@media screen and (max-width:768px) {
+    #group_photo {
+        display: none;
+    }
+    
+    .section_main {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
