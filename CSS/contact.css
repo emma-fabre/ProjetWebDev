@@ -12,7 +12,7 @@ and open the template in the editor.
 #carto {
     padding-top: 100px;
     color: black; 
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
     width: 100%;
@@ -20,6 +20,7 @@ and open the template in the editor.
 }
 
 #carto h1 {
+    text-align: left;
     font-size : 40px;
     font-weight: bold ;
     text-transform: uppercase;
@@ -50,6 +51,7 @@ and open the template in the editor.
 }
 
 #contact h1 {
+    text-align: left;
     font-size : 40px;
     font-weight: bold ;
     text-transform: uppercase;
@@ -59,62 +61,35 @@ and open the template in the editor.
     text-align: left;
     margin-left: 0px;
     color: black;
-    /*color : black;
-    margin-bottom : 0px;*/
+   
        
 }
 
 #logo {
-    
+    flex-direction: row;
     padding-bottom: 2%;
     padding-left: 15%;
     padding-right: 15%;
-    width: 100%;    
+    width: 100%;
+    text-align: left;
+}
+
+#logo h1 {
+    text-align: left;
+    font-size : 40px;
+    font-weight: bold ;
+    text-transform: uppercase;
 }
 
 #logo article {
-    flex: 1; 
-    height: 32px;
-    border: transparent thin solid;
-    display: flex;
+
+    border-width: 32px;
+    justify-content: space-between;
    
 }
 
 #logo a{
-    color: black;
-    font-size:xx-small;
-    font-family: 'Helvetica';
+    flex-direction: row;
+     
 }
 
-#gauche:hover {
-   border: black thin solid; 
-   border-radius: 5px;
-   background-color: grey ;
-}
-
-#milieu:hover {
-   border: black thin solid; 
-   border-radius: 5px;
-   background-color: grey ;
-}
-
-#droite:hover {
-   border: black thin solid; 
-   border-radius: 5px;
-   background-color: grey ;
-}
-
-#gauche {
-    background: transparent url('../Images/logo-fb.png') no-repeat 0 0; /* Fond */  
- 
-}
-
-#milieu {
-   background: transparent url('../Images/logo-tw.png') no-repeat 0 0; /* Fond */ 
-  
-}
-
-#droite {
-    background: transparent url('../Images/logo-lk.png') no-repeat 0 0; /* Fond */  
- 
-}
