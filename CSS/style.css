@@ -20,7 +20,7 @@ body {
     flex-direction: column; /* Les éléments sont empilés */
     align-items: center; /* Les éléments portés sont centrés à la verticale */
     width: 100%; /* La page occupe toute la largeur */
-    background-color: gray;
+    background-color: white;
     text-align: center;
 }
 
@@ -50,6 +50,7 @@ header {
     flex-direction: row; /* Les éléments sont empilés */
     justify-content: center;
     background-color: white;
+    box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
 }
 
 #nav_bar .nav_link_logo {
@@ -103,30 +104,46 @@ nav ul li a:hover {
     color:black;
 }
 
-.accueil {
-    margin-top: 100px;
-    padding-top: 100px;
-    padding-bottom: 7%;
+.offre {
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
-    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
     display:block;
     flex-direction: column;
-    background-color: #404040;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.comm {
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    display:block;
+    flex-direction: column;
+    background-color: white;
     align-items: center;
 }
 
 .section_header {
-    width: inherit;
+    width: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-bottom: 50px;
 }
 
-.section_header h1 {
+.section_header h2 {
     display: inline-block;
-    position: relative;
     margin-top: 15px;
     margin-bottom: 0;
     padding-bottom: 10px;
@@ -134,6 +151,10 @@ nav ul li a:hover {
     line-height: 40px;
     text-transform: uppercase;
     color: black;
+}
+
+.section_header p {
+    font-style: italic;
 }
 
 .section_main {
@@ -149,6 +170,8 @@ nav ul li a:hover {
     margin-bottom: 25px;
     vertical-align: top;
     flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .section_main .textimage img {
@@ -157,7 +180,7 @@ nav ul li a:hover {
 }
 
 .section_main .textimage p{
-    width: 235px;
+    width: 200px;
 }
 
 /*Footer below*/
