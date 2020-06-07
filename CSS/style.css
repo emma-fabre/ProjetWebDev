@@ -21,6 +21,18 @@ body {
     align-items: center; /* Les éléments portés sont centrés à la verticale */
     width: 100%; /* La page occupe toute la largeur */
     background-color: gray;
+    text-align: center;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
 }
 
 header {
@@ -90,6 +102,65 @@ nav ul li a:hover {
     text-decoration: none;
     color:black;
 }
+
+.accueil {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    display:block;
+    flex-direction: column;
+    background-color: #404040;
+    align-items: center;
+}
+
+.section_header {
+    width: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.section_header h1 {
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-size: 45px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.section_main {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section_main .textimage {
+    display: inline-block;
+    float: none !important;
+    margin-right: -4px;
+    margin-bottom: 25px;
+    vertical-align: top;
+    flex-direction: column;
+}
+
+.section_main .textimage img {
+    max-width: 125px;
+    height: auto;
+}
+
+.section_main .textimage p{
+    width: 235px;
+}
+
+/*Footer below*/
 
 i {
     font-family: 'FontAwesome';
