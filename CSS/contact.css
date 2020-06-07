@@ -20,7 +20,7 @@ and open the template in the editor.
 }
 
 #carto h1 {
-    
+    text-align: left;
     font-size : 40px;
     font-weight: bold ;
     text-transform: uppercase;
@@ -51,6 +51,7 @@ and open the template in the editor.
 }
 
 #contact h1 {
+    text-align: left;
     font-size : 40px;
     font-weight: bold ;
     text-transform: uppercase;
@@ -73,6 +74,7 @@ and open the template in the editor.
 }
 
 #logo h1 {
+    text-align: left;
     font-size : 40px;
     font-weight: bold ;
     text-transform: uppercase;
