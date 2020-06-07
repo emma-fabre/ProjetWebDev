@@ -8,7 +8,7 @@ body {
 }
 
 section {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 0%;
     padding-left: 20%;
     padding-right: 15%;
@@ -16,6 +16,7 @@ section {
     display:block;
     font-size: 20px;
     color:grey;
+    
 }
 h1{
     display:flex;
@@ -27,6 +28,10 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+    color:#A32725;
+}
 h3{
     display:flex;
     justify-content: center;
@@ -52,4 +57,22 @@ h3{
 #drapeaux img{
     border-radius:15px;
     padding:3;
+}
+
+#presta_site_web{
+    padding-top: 120px;
+}
+
+#liens_sites{
+   color: black;
+   background-color: lightgrey;
+   width:50%;
+   text-align: center;
+   border:black;
+   border-style: groove;
+   margin: auto;
+}
+
+#presta_cyber{
+    padding-top:50px;
 }
