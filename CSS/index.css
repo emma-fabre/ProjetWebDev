@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : prico
 */
 
+body {
+    text-align: center;
+}
+
 section {
     padding-top: 50px;
     padding-bottom: 5%;

@@ -15,6 +15,7 @@ body {
     align-items: center; /* Les éléments portés sont centrés à la verticale */
     width: 100%; /* La page occupe toute la largeur */
     background-color: white;
+    text-align: left;
 }
 
 section {
